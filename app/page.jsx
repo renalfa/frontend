@@ -1,11 +1,12 @@
+import Provider from "@/components/provider";
 import { Button } from "@/components/ui/button";
 import React from "react";
 
 const Home = () => {
   return (
-    <div>
+    <Provider>
       <Button>Test</Button>
-    </div>
+    </Provider>
   );
 };
 
